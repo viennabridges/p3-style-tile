@@ -1,9 +1,6 @@
-html {background: url('../img/texture3.jpeg') repeat-y;}
-
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 5px;
-	padding: 5px;
+h2, h3, p {	margin: 5px;
+			padding: 5px;
 }
 
 /* Layout for Style Tile*/
@@ -43,7 +40,7 @@ section {
 h1{color: #68564A;}
 
 h1, h2 {font-family: 'Averia Sans Libre', cursive;
-	font-size: 2em;}
+		font-size: 2em;}
 
 h2 {color: #7AB2A9;}
 
@@ -63,8 +60,6 @@ em { padding: 20px;
 
 div,  {	font-family: 'Open Sans', sans-serif;
 		font-size: 1.4em;
-		margin: 20px;
-		padding: 15px;
 		border: solid;
 		border-radius: 30px 10px 30px 10px;
 		height: 150px;
