@@ -1,6 +1,8 @@
+html{background: #7AB2A9;}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 20px;
 }
 
 /* Layout for Style Tile*/
@@ -24,19 +26,26 @@ section {
 	width: 50px;
 }
 
-.color-1 {background-color: #68564A;}
-.color-2 {background-color: #AEBD5E;}
-.color-3 {background-color: #A7DAD3;}
-.color-4 {background-color: #7AB2A9;}
-.color-5 {background-color: #E65C90;}
-.color-6 {background-color: #DA226C;}
+.color-1 {background: #68564A;}
+.color-2 {background: #AEBD5E;}
+.color-3 {background: #A7DAD3;}
+.color-4 {background: #7AB2A9;}
+.color-5 {background: #E65C90;}
+.color-6 {background: #DA226C;}
 
-h1 {font-family: 'Averia Sans Libre', cursive;
+.pattern-1 {background: url('p3-style-tile/img/texture1.jpg');}
+.pattern-2 {background: url('../img/texture2.jpeg');}
+.pattern-3 {background: url('../img/texture3.jpeg');}
+.pattern-4 {background: url('../img/texture4.jpeg');}
+
+h1, h2 {font-family: 'Averia Sans Libre', cursive;
 	font-size: 2em;
 	margin: 20px;
 	padding: 15px;}
 
-h2 {font-family: 'Sail', cursive;
+h2:nth-child(1) {color: #7AB2A9;}
+
+h3 {font-family: 'Sail', cursive;
 	font-size: 1.4em;
 	margin: 20px;
 	padding: 15px;}
@@ -58,12 +67,7 @@ div {	font-family: 'Open Sans', sans-serif;
 		width: 150px;
 		position: relative;}
 
-div:nth-child(1) {background-color: #68564A;}
-div:nth-child(2) {background-color: #AEBD5E;}
-div:nth-child(3) {background-color: #A7DAD3;}
-div:nth-child(4) {background-color: #7AB2A9;}
-div:nth-child(5) {background-color: #E65C90;}
-div:nth-child(6) {background-color: #DA226C;}
+
 
 
 
