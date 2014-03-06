@@ -1,5 +1,3 @@
-html{background: #7AB2A9;}
-
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 20px;
@@ -18,7 +16,8 @@ section {
 .color-6,
 .pattern-1,
 .pattern-2,
-.pattern-3 {
+.pattern-3, 
+.pattern-4{
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
@@ -26,39 +25,44 @@ section {
 	width: 50px;
 }
 
-.color-1 {background: #68564A;}
-.color-2 {background: #AEBD5E;}
-.color-3 {background: #A7DAD3;}
-.color-4 {background: #7AB2A9;}
-.color-5 {background: #E65C90;}
-.color-6 {background: #DA226C;}
+.color-1 {background: #68564A;} /*Body Text*/
+.color-2 {background: #AEBD5E;} /*Secondary Header*/
+.color-3 {background: #A7DAD3;} /*Document Background*/
+.color-4 {background: #7AB2A9;} /*Dropshadows, extra highlighting*/
+.color-5 {background: #E65C90;} /*Container Background*/
+.color-6 {background: #DA226C;} /*Primary Header*/
 
-.pattern-1 {background: url('p3-style-tile/img/texture1.jpg');}
+.pattern-1 {background: url('../img/texture1.jpeg');}
 .pattern-2 {background: url('../img/texture2.jpeg');}
 .pattern-3 {background: url('../img/texture3.jpeg');}
 .pattern-4 {background: url('../img/texture4.jpeg');}
+
+h1{color: #68564A;}
 
 h1, h2 {font-family: 'Averia Sans Libre', cursive;
 	font-size: 2em;
 	margin: 20px;
 	padding: 15px;}
 
-h2:nth-child(1) {color: #7AB2A9;}
+h2 {color: #7AB2A9;}
 
-h3 {font-family: 'Sail', cursive;
+h3 {color: #AEBD5E;
+	font-family: 'Sail', cursive;
 	font-size: 1.4em;
 	margin: 20px;
 	padding: 15px;}
 
-p { font-family: 'Open Sans', sans-serif;
+
+p { color: #68564A;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	margin: 20px;
 	padding: 15px;}
 
 .header { height: 350px;}
 
-div {	font-family: 'Open Sans', sans-serif;
-		font-size: 1.5em;
+div,  {	font-family: 'Open Sans', sans-serif;
+		font-size: 1.4em;
 		margin: 20px;
 		padding: 15px;
 		border: solid;
@@ -67,11 +71,14 @@ div {	font-family: 'Open Sans', sans-serif;
 		width: 150px;
 		position: relative;}
 
+ul, li {color: #E65C90;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.2em;}
 
 
 
 
-/* Show Grid */
+/* Show Grid 
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
-}
+}*/
