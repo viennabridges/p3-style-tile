@@ -24,12 +24,12 @@ section {
 	width: 50px;
 }
 
-.color-1 {background-color:;}
-.color-2 {background-color:;}
-.color-3 {background-color:;}
-.color-4 {background-color:;}
-.color-5 {background-color:;}
-.color-6 {background-color:;}
+.color-1 {background-color: #68564A;}
+.color-2 {background-color: #AEBD5E;}
+.color-3 {background-color: #A7DAD3;}
+.color-4 {background-color: #7AB2A9;}
+.color-5 {background-color: #E65C90;}
+.color-6 {background-color: #DA226C;}
 
 h1 {font-family: 'Averia Sans Libre', cursive;
 	font-size: 2em;
