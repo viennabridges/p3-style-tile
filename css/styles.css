@@ -1,0 +1,73 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {background-color:;}
+.color-2 {background-color:;}
+.color-3 {background-color:;}
+.color-4 {background-color:;}
+.color-5 {background-color:;}
+.color-6 {background-color:;}
+
+h1 {font-family: 'Averia Sans Libre', cursive;
+	font-size: 2em;
+	margin: 20px;
+	padding: 15px;}
+
+h2 {font-family: 'Sail', cursive;
+	font-size: 1.4em;
+	margin: 20px;
+	padding: 15px;}
+
+p { font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	margin: 20px;
+	padding: 15px;}
+
+.header { height: 350px;}
+
+div {	font-family: 'Open Sans', sans-serif;
+		font-size: 1.5em;
+		margin: 20px;
+		padding: 15px;
+		border: solid;
+		border-radius: 30px 10px 30px 10px;
+		height: 150px;
+		width: 150px;
+		position: relative;}
+
+div:nth-child(1) {background-color: #68564A;}
+div:nth-child(2) {background-color: #AEBD5E;}
+div:nth-child(3) {background-color: #A7DAD3;}
+div:nth-child(4) {background-color: #7AB2A9;}
+div:nth-child(5) {background-color: #E65C90;}
+div:nth-child(6) {background-color: #DA226C;}
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
